@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dennis Amoah</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/8f006b8cbd.js" crossorigin="anonymous"></script>
+    
+    <!-- Bootstrap 5.3.0-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    
+    <!-- Custom Stylesheets -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="p-0 m-0 border-0">
+    <header>
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg bg-body-tertiary navbar-custom fixed-top">
+            <div class="container-fluid ">
+                <!-- Brand and toggle get grouped-->
+                <a class="navbar-brand" href="#">Dennis Amoah</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!--Nav items-->
+                <div class="collapse navbar-collapse flex-grow-0 trans" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#hero">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#resume">Resume</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!--Hero Image-->
+        <section id="hero">
+            <div class="hero-image">
+                <div class="hero-text">
+                    <h1>
+                        I'm <b><u>Developer</u></b> <br/>
+                        Dennis Amoah
+                        
+                    </h1>
+                    <p class="sub-heading">Bringing your vision to life through web design and development.</p>
+                    <a href="mailto:damoah2@gmu.edu">
+                        <button class="atc" onclick="window.location.href='mailto:damoah2@gmu.edu';">
+                            <i class="fas fa-envelope"></i> Contact me
+                        </button>
+                    </a>
+                    
+                </div>
+            </div>
+        </section>
+
+        <!--About-->
+        <section id="about">
+            <h2>About Me</h2>
+            <p> 
+                I am a passionate web developer with proficiency in HTML5, CSS3, Bootstrap5, JavaScript, JSON, Python, PHP, and MySQL.
+                My goal is to create beautiful, functional, and user-friendly websites that deliver value to businesses and users. With
+                a solid understanding of web development principles and a keen eye for design, I stay up-to-date with the latest
+                technologies and trends in the industry. I am a detail-oriented and collaborative team player who communicates technical
+                concepts effectively. I have experience working on diverse projects and am committed to delivering high-quality work
+                that adds value to clients' businesses. Continuous learning, experimentation, and improvement are key to my success.
+                Let's discuss how I can help bring your web projects to life.
+            </p>
+            
+        </section>
+
+        <!--Projects-->
+        <section id="projects">
+            <div>
+                <h2>Recent Projects</h2>
+                <ul>
+                    <li>
+                        <a href="https://dgconstruction0.wordpress.com/" target="_blank">D&amp;G Construction</a>
+                        <p>A home renovation company site made with wordpress for a client.</p>
+                    </li>
+                    <li>
+                        <a href="https://github.com/damoah2/MusicPlayerProject" target="_blank">Music Player</a>
+                        <p>Music Player is designed to enable users to listen to songs by pulling them from Github.</p>
+                    </li>
+                    <li>
+                        <a href="https://damoah2.github.io/My-team-page/" target="_blank">My team page</a>
+                        <p>My team page displaying the members of the team.</p>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+        </section>
+
+        <!--Resume-->
+        <section id="resume">
+            <h2>Resume</h2>
+            <object class="desktop-resume" data="docs/Resume.pdf" type="application/pdf"
+                width="70%" height="600px">
+                <p>Unable to display PDF file. <a
+                        href="docs/Resume.pdf">Download</a> instead.</p>
+            </object>
+            <p class="mobile-resume">View <a href="docs/Resume.pdf">Here</a>.</p>
+        </section>
+
+        
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="copyright col-md-6">
+                    <p>&copy; <span id="year"></span> Dennis Amoah. All rights reserved.</p>
+                </div>
+                <div class="col-md-6">
+                    <!--Contact-->
+                    <h2 id="contact">Contact</h2>
+                    <div class="social-links">
+                        <a href="https://github.com/damoah2" target="_blank" rel="noopener noreferrer"><i
+                                class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/dennisamoah/" target="_blank" rel="noopener noreferrer"><i
+                                class="fab fa-linkedin"></i></a>
+                        <a href="mailto:damoah2@gmu.edu"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom Script -->
+    <script type="text/javascript" src="js/index.js">
+    </script>
+</body>
+
+</html
