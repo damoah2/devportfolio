@@ -78,7 +78,7 @@ header {
 }
 
 #about, #projects, #contact {
-    padding: 20px 20px 0px;
+    padding: 15px 20px 0px;
 }
 
 
@@ -91,9 +91,9 @@ header {
 }
 
 #about p {
-    text-align: justify;
+    text-align: left;
     max-width: 70%;
-    margin: 0 auto;
+    margin: 0 auto 10px;
     line-height: 1.6;
 }
 
@@ -101,7 +101,7 @@ header {
 #projects div {
     max-width: 70%;
     margin: 0 auto 20px;
-    text-align: justify;
+    text-align: left;
     line-height: 1.6;
 }
 
@@ -144,5 +144,13 @@ footer div row {
     .navbar-custom {
         background-color: #000000cb !important;
         padding: 5px 5px;
+    }
+    .atc {
+        border-radius: 20px;
+        padding: 5px 10px;
+        background-color: rgb(2, 96, 2);
+        color: white;
+        border: 0;
+        font-size: 0.8em;
     }
 }
